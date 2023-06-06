@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int binarySearch(int arr[], int l, int r, int a) 
+int binarySearch(int arr[], int l, int r, int a) //"a" is variable for the value to search
 {
     while (l <= r) 
 	{
